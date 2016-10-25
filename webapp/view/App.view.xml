@@ -1,0 +1,58 @@
+<mvc:View 
+	controllerName="sap.ui.bootcamp.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Text text="Username" />
+	<!--<Input type="Text" id="usern" />-->
+	<Input 
+		value="{/field/username}"
+		description="Hello {/field/username}"
+		valueLiveUpdate="true"
+		width="100%"
+		id="username"
+	/>
+	<Text text="Password" />
+	<Input type="Text" id="pword" />
+	<!--<Button text="login" press="onLoginPress" />-->
+	<Button text="{i18n>loginButtonText}" press="onLoginPress" />
+		
+	<!--<Text text="Hello Dre &#xA; &#xA;" />-->
+	<!--<br />-->
+	<!--<Text text="Username" />-->
+	<!--<Input type="Text" />-->
+	<!--<Text text="Password" />-->
+	<!--<Input type="Text" />-->
+	<!--<Button text="Login" type="Default" />-->
+	
+	
+		<!--// 	new sap.m.Text({-->
+		<!--	// 		text : "Username"-->
+		<!--	// 	}).placeAt("content");-->
+				
+		<!--	// 	new sap.m.Input({-->
+		<!--	// 		type : "Text"-->
+		<!--	// 	}).placeAt("content")-->
+				
+		<!--	// 	new sap.m.Text({-->
+		<!--	// 		text : "Password"-->
+		<!--	// 	}).placeAt("content");-->
+			
+		<!--	// 	new sap.m.Input({-->
+		<!--	// 		type : "Text"-->
+		<!--	// 	}).placeAt("content")-->
+				
+		<!--	// 	new sap.m.Button({-->
+		<!--	// 		text : "Login",-->
+		<!--	// 		type : "Default"-->
+		<!--	// 	}).placeAt("content")-->
+	
+	<!--xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.bootcamp.controller.App"-->
+	<!--xmlns:html="http://www.w3.org/1999/xhtml">-->
+	<!--<App>-->
+	<!--	<pages>-->
+	<!--		<Page title="Title">-->
+	<!--			<content></content>-->
+	<!--		</Page>-->
+	<!--	</pages>-->
+	<!--</App>-->
+</mvc:View>
